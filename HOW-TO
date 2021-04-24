@@ -7,7 +7,7 @@ Comments wrapped with #...# should be replaced with actual path/value
 ********
 *How to*
 ********
-Download sFiles-convert-to-t from:
+Download sFiles-convert-to-t from: https://github.com/roselioZZtest/sConverter
 Change directory to newly downloaded repo
 Make the script is executable
 Place the sFinder.sh to the .s file directory
