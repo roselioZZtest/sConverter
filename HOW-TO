@@ -1,0 +1,27 @@
+******
+*What*
+******
+This script will help us modify .s files to .t files efficiently
+Comments wrapped with #...# should be replaced with actual path/value
+
+********
+*How to*
+********
+Download sFiles-convert-to-t from:
+Change directory to newly downloaded repo
+Make the script is executable
+Place the sFinder.sh to the .s file directory
+Go to #/path/to/sFiles/directory# where you have copied the sFinder.sh 
+Run the script
+
+**********
+*commands*
+**********
+cd #path/to/sFiles-convert-to-t#
+chmod +x sFinder.sh
+cp sFinder.sh #/path/to/sFiles/directory#
+cd #/path/to/sFiles/directory#
+./sFinder.sh or sh ./sFinder.sh
+
+***** please dont forget to change items #...# to actual path/value
+***** for python script use sFinder.py, you may follow same steps above to apply
