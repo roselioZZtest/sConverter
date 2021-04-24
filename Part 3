@@ -1,0 +1,7 @@
+Why is it important that developers have consistent local development environments, for example they have the same versions of software libraries or development tools? What would you do to make sure their environments are consistent?
+
+Why? is to avoid unwanted behaviours during deployment such as incompatitble dependencies or other pre-requirement needed prior to release-to-live or deployment.
+
+What? on VM we can create a base image and can create multiple instance for different projects/dev team ensuring all VMs will be using the same dependencies
+      likewise in container we can create image and save it to a repository to serve as base image and least from this centralize repository we can monitor how many more images
+      will be created along the way and can merge everything to build the a final or more latest version of the "base image" as it evolves along with development team projects.
