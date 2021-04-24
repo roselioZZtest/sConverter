@@ -21,7 +21,7 @@ cd #path/to/sFiles-convert-to-t#
 chmod +x sFinder.sh
 cp sFinder.sh #/path/to/sFiles/directory#
 cd #/path/to/sFiles/directory#
-./sFinder.sh or sh ./sFinder.sh
+./sFinder.sh or sh ./sFinder.sh or python3.6 sFinder.py #for python#
 
 ***** please dont forget to change items #...# to actual path/value
 ***** for python script use sFinder.py, you may follow same steps above to apply
